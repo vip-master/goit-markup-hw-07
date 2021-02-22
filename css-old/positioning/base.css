@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    max-width: 1600px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+nav,
+ul,
+address,
+.textcard,
+.social__link,
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* End reset */
+
+.social {
+    column-gap: 10px;
+}
+
+.social__link {
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social__item {
+    max-width: max-content;
+    border: none;
+    box-shadow: none;
+}
+
+.centrion {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.textcard {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.disable {
+    position: absolute;
+    top: -1984px;
+    left: -1984px;
+}
+
+.is_hidden {
+    visibility: collapse;
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+/* Header */
+
+.nav {
+    column-gap: 93px;
+}
+
+
+/* header ul,
+header address, */
+
+.nav__list,
+.header-contacts {
+    column-gap: 50px;
+}
+
+.header-centrion {
+    padding: 0;
+}
+
+.nav__link {
+    display: inline-block;
+    position: relative;
+    padding: 32px 0 32px 0;
+}
+
+.nav__link::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+}
+
+.contact__icon {
+    margin-right: 10px;
+    max-height: 12px;
+}
+
+
+/* Footer */
+
+.footer {
+    padding: 60px 0 60px 0;
+}
+
+.footer-contacts {
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 9px;
+}
+
+.footer-centrion {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 70px;
+}
+
+.connect__text {
+    margin-bottom: 20px;
+}
+
+.joinus {
+    margin-left: 23px;
+}
+
+.spam__items {
+    margin-top: 20px;
+    height: 50px;
+    display: flex;
+    column-gap: 12px;
+}
+
+.spam__input {
+    height: 100%;
+    width: 358px;
+}
+
+.spam__button {
+    height: 100%;
+    width: 200px;
+    position: relative;
+    padding: 0 32px 0 0;
+}
+
+.spam__button::after {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 13px;
+    right: 28px;
+}
