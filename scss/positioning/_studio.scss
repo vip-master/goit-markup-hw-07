@@ -172,7 +172,7 @@ main ul {
 }
 
 .modal-form__input,
-.modal-form__checkbox-area {
+.modal-form__checkbox {
     position: relative;
 }
 
@@ -187,8 +187,8 @@ main ul {
 }
 
 .modal-form__checkbox-icon {
-    top: 3px;
-    left: -1px;
+    top: 0;
+    left: 0;
 }
 
 .modal-form__commentbox {

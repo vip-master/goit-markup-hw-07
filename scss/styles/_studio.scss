@@ -172,8 +172,8 @@
     }
     /* Reactions */
     
-    .social__link a:hover .social__icon,
-    .social__link a:focus .social__icon {
+    .social__link:hover .social__icon,
+    .social__link:focus .social__icon {
         fill: var(--color-antiaccent);
     }
     
@@ -188,26 +188,26 @@
         outline: none;
     }
     
-    .modal .window .input input:focus,
-    textarea:focus {
+    .modal-form__textbox:focus,
+    .modal-form__commentbox:focus {
         border-color: var(--color-accent);
     }
     
-    .modal .window button[type="reset"]:hover path,
-    .modal .window button[type="reset"]:focus path,
-    .modal .window .input input:focus+svg {
+    .modal__close:hover .modal__close-icon,
+    .modal__close:focus .modal__close-icon,
+    .modal-form__textbox:focus+.modal-form__icon {
         fill: var(--color-accent);
     }
     
-    .modal .window button[type="submit"]:active {
+    .modal-form__submit:active {
         background-color: var(--color-button);
     }
     
-    .modal .window .checkbox input:checked+svg {
+    .modal-form__checkbox-area:checked+.modal-form__checkbox-icon {
         --cborder: transparent;
         --cback: var(--color-accent);
     }
     
-    .modal .window .checkbox input:focus+svg {
+    .modal-form__checkbox-area:focus+.modal-form__checkbox-icon {
         --cborder: var(--color-accent);
     }
