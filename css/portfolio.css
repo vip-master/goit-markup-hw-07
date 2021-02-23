@@ -648,7 +648,7 @@ h6 {
 
 .spam__button::after {
   background-color: transparent;
-  background-image: url(../../images/send.svg);
+  background-image: url(../images/send.svg);
   background-repeat: no-repeat;
 }
 

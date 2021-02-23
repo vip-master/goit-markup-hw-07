@@ -648,7 +648,7 @@ h6 {
 
 .spam__button::after {
   background-color: transparent;
-  background-image: url(../../images/send.svg);
+  background-image: url(../images/send.svg);
   background-repeat: no-repeat;
 }
 
@@ -742,7 +742,10 @@ button:active {
   margin-top: 10px;
 }
 
-section:not(.hero) {
+.work,
+.photos,
+.team,
+.clients {
   padding: 94px 0 94px 0;
 }
 
@@ -957,7 +960,7 @@ main ul {
 */
 .hero {
   background-color: var(--color-herolay);
-  background-image: url("../../images/studio/heroback.jpg");
+  background-image: url("../images/studio/heroback.jpg");
   background-blend-mode: darken;
   background-size: cover;
   background-repeat: no-repeat;
