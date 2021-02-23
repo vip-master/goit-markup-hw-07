@@ -95,28 +95,25 @@ main ul {
     object-fit: contain;
 }
 
-.clients-grid__item:nth-child(1) svg {
-    width: 44.27px;
-}
-
-.clients-grid__item:nth-child(2) svg {
-    width: 40px;
-}
-
-.clients-grid__item:nth-child(3) svg {
-    width: 41px;
-}
-
-.clients-grid__item:nth-child(4) svg {
-    width: 79.66px;
-}
-
-.clients-grid__item:nth-child(5) svg {
-    width: 59px;
-}
-
-.clients-grid__item:nth-child(6) svg {
-    width: 88.48px;
+.clients-grid__item {
+    &:nth-child(1) .clients-grid__icon {
+        width: 44.27px;
+    }
+    &:nth-child(2) .clients-grid__icon {
+        width: 40px;
+    }
+    &:nth-child(3) .clients-grid__icon {
+        width: 41px;
+    }
+    &:nth-child(4) .clients-grid__icon {
+        width: 79.66px;
+    }
+    &:nth-child(5) .clients-grid__icon {
+        width: 59px;
+    }
+    &:nth-child(6) .clients-grid__icon {
+        width: 88.48px;
+    }
 }
 
 .modal {
@@ -124,6 +121,10 @@ main ul {
     width: 100vw;
     height: 100vh;
     top: 0;
+    & label {
+        display: block;
+        margin-top: 10px;
+    }
 }
 
 .window {
@@ -156,11 +157,6 @@ main ul {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-}
-
-.modal label {
-    display: block;
-    margin-top: 10px;
 }
 
 .modal-form__commentbox,

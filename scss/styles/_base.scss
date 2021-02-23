@@ -129,12 +129,11 @@ h6 {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     padding-left: 16px;
-}
-
-.spam__input::placeholder {
-    height: 100%;
-    font-size: 16px;
-    color: var(--color-antifootback);
+    &::placeholder {
+        height: 100%;
+        font-size: 16px;
+        color: var(--color-antifootback);
+    }
 }
 
 .spam__button {
@@ -147,12 +146,11 @@ h6 {
     line-height: 1.87;
     letter-spacing: 0.06em;
     color: var(--color-antiaccent);
-}
-
-.spam__button::after {
-    background-color: transparent;
-    background-image: url(../images/send.svg);
-    background-repeat: no-repeat;
+    &::after {
+        background-color: transparent;
+        background-image: url(../images/send.svg);
+        background-repeat: no-repeat;
+    }
 }
 
 

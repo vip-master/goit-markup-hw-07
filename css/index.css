@@ -820,27 +820,27 @@ main ul {
      object-fit: contain;
 }
 
-.clients-grid__item:nth-child(1) svg {
+.clients-grid__item:nth-child(1) .clients-grid__icon {
   width: 44.27px;
 }
 
-.clients-grid__item:nth-child(2) svg {
+.clients-grid__item:nth-child(2) .clients-grid__icon {
   width: 40px;
 }
 
-.clients-grid__item:nth-child(3) svg {
+.clients-grid__item:nth-child(3) .clients-grid__icon {
   width: 41px;
 }
 
-.clients-grid__item:nth-child(4) svg {
+.clients-grid__item:nth-child(4) .clients-grid__icon {
   width: 79.66px;
 }
 
-.clients-grid__item:nth-child(5) svg {
+.clients-grid__item:nth-child(5) .clients-grid__icon {
   width: 59px;
 }
 
-.clients-grid__item:nth-child(6) svg {
+.clients-grid__item:nth-child(6) .clients-grid__icon {
   width: 88.48px;
 }
 
@@ -849,6 +849,11 @@ main ul {
   width: 100vw;
   height: 100vh;
   top: 0;
+}
+
+.modal label {
+  display: block;
+  margin-top: 10px;
 }
 
 .window {
@@ -891,11 +896,6 @@ main ul {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-}
-
-.modal label {
-  display: block;
-  margin-top: 10px;
 }
 
 .modal-form__commentbox,
